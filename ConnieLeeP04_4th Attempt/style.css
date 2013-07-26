@@ -1,0 +1,106 @@
+html {
+	background-color: #FFFFFF; 
+	overflow-x: hidden; 
+
+}
+
+/* header */
+.header_img{
+
+	float: left;
+	padding: 0px;
+	padding-left: 0px;
+
+	/*border: 0.25px solid black; */
+} 
+
+.header_name{
+
+	padding: 10px;
+	padding-top: 50px;
+	/*border: 0.25px solid black;  */
+}
+
+ .orange_bar {
+
+	background-color: #FF9100;
+	height: 8px;
+	position: relative;
+	top: 19px;
+	/*border: 0.25px solid black; */
+
+}
+
+/*Work*/
+
+.page{
+	max-width:1200px;
+	min-height:500px;
+	width: 1200px;
+	position: relative;
+	margin-right:auto;
+	margin-left:auto;
+	padding-right:0px;
+
+}
+.main_content {
+
+	/*background-color: #292929; */
+	/*border: 3px solid red; */
+	width:auto; /* fluid occurs in 3dmodels page */
+	height: auto;
+
+}
+
+.col {
+
+	float: left;
+
+}
+
+.images {             /* a box that makes the fluid of the nav barworked*/
+
+	width: 2000px; /* the width of the box */
+
+}
+
+.work{
+
+	padding: 20px;
+	/*border: 0.3px solid gray; */
+	/*background-color: gray; */
+}
+
+h3{
+
+	font-size: 24px;
+	text-align: center;
+	/*border: 1px solid black; */
+
+}
+
+/* -------------------About Page ---------------------------*/
+
+
+.about_img {
+	float: left;
+	padding:50px;
+	border: 1px solid blue;
+	width: 400px;
+
+}
+
+.about_text{
+
+	padding:50px;
+	border: 1px solid blue;
+}
+
+
+/* -------------------3D modeling Page ---------------------------*/
+
+#model{
+
+	border: 0.3px solid gray;
+
+}
